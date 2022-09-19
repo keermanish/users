@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/keermanish/users#readme",
   "devDependencies": {
-    "json-server": "^0.17.0",
     "netlify-lambda": "^2.0.15",
     "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
   }
 }
