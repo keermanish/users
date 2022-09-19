@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sh db_init.sh && npx nodemon ./index.js",
-    "deploy": "sh db_init.sh && npx netlify-lambda serve ./index.js"
+    "start": "sh db_init.sh && npx nodemon ./index.js"
   },
   "repository": {
     "type": "git",
