@@ -2,7 +2,7 @@
 
 DB_FILE="./db.json"
 
-if [[ ! -f "$DB_FILE" ]]; then
+if [ ! -f "$DB_FILE" ]; then
   touch "$DB_FILE"
   echo "{\"users\": []}" >> "$DB_FILE"
   echo "done"
